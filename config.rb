@@ -9,6 +9,8 @@ end
 # https://middlemanapp.com/basics/layouts/
 activate :livereload
 activate :directory_indexes
+activate :sprockets
+activate :asset_hash
 # Per-page layout changes
 page '/*.xml', layout: false
 page '/*.json', layout: false
