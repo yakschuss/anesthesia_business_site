@@ -8,6 +8,7 @@ end
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 activate :livereload
+activate :directory_indexes
 # Per-page layout changes
 page '/*.xml', layout: false
 page '/*.json', layout: false
