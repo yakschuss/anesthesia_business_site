@@ -150,8 +150,8 @@ section h2 {
 }
 .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
 	color: #fff;
-	background-color: #a41414;
-	border-color: #a41414;
+	background-color: $deep-koamaru;
+	border-color: $deep-koamaru;
 }
 .btn-default {
 	color: $dark-sky-blue;
