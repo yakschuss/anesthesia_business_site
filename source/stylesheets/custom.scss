@@ -16,6 +16,35 @@
   margin-left: 2.5px;
 }
 
+.mission-statement {
+  font-size: 17px;
+}
+
+.about-2-txt-cont {
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.about-2-img-cont {
+  padding: 0;
+  margin-right: 10px;
+}
+
+.section-about-2 {
+  padding: 100px 0 100px 0;
+}
+
+@media(max-width: 768px) {
+  .doctors {
+    margin-bottom: 70px;
+  }
+
+  .questions {
+    margin-top: 20px;
+  }
+}
+
 @media (min-width: 768px) {
   .full-screen-links {
     margin-left: 80px;
