@@ -4,13 +4,165 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CRubik:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
     <title><%= current_page.data.title || "Middleman" %></title>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
   </head>
   <body>
+
+    <section id="header">
+      <!-- <div class="top&#45;bar"> -->
+        <!--   <div class="container"> -->
+          <!--     <div class="row"> -->
+            <!--       <div class="col&#45;lg&#45;6"> -->
+              <!--         <div class="alignleft"> -->
+                <!--           <p class="text&#45;right"><i class="fa fa&#45;phone fa&#45;2x"></i> +919874039183</p> -->
+                <!--           <p class="text&#45;right"><i class="fa fa&#45;envelope&#45;o fa&#45;2x"></i> nilanjan.banerjee0@gmail.com</p> -->
+                <!--         </div> -->
+              <!--       </div> -->
+            <!--       <div class="col&#45;lg&#45;6"> -->
+              <!--         <div class="alignright"> -->
+                <!--           <div class="social&#45;cont"> -->
+                  <!--           <ul> -->
+                    <!--             <li><a href="" class="tran3s round&#45;border icon"><i class="fa fa&#45;facebook" aria&#45;hidden="true"></i></a></li> -->
+                    <!--             <li><a href="#" class="tran3s round&#45;border icon"><i class="fa fa&#45;twitter" aria&#45;hidden="true"></i></a></li> -->
+                    <!--             <li><a href="#" class="tran3s round&#45;border icon"><i class="fa fa&#45;google&#45;plus" aria&#45;hidden="true"></i></a></li> -->
+                    <!--             <li><a href="#" class="tran3s round&#45;border icon"><i class="fa fa&#45;linkedin" aria&#45;hidden="true"></i></a></li> -->
+                    <!--           </ul> -->
+                  <!--         </div> -->
+                <!--         </div> -->
+              <!--          -->
+              <!--       </div> -->
+            <!--     </div> -->
+          <!--   </div> -->
+        <!-- </div> -->
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+
+            <% link_to '/', class: "navbar-brand" do %>
+              <%= image_tag 'A4DH.png', class: 'logo img-responsive', alt: "" %>
+            <% end %>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse"  data-hover="dropdown" data-animations="zoomIn">
+              <ul class="nav navbar-nav full-screen-links">
+                <!-- <li class="dropdown"> <a href="#">Home <span class="caret"></span></a> -->
+                  <!--   <ul class="dropdown&#45;menu"  role="menu"> -->
+                    <!--     <li><a href="index.html">Home 1 </a></li> -->
+                    <!--     <li><a href="index&#45;2.html">Home 2 </a></li> -->
+                    <!--     <li><a href="index&#45;3.html">Home 3 </a></li> -->
+                    <!--   </ul> -->
+                  <!-- </li> -->
+                <!-- <li class="dropdown"> <a href="#">About us <span class="caret"></span></a> -->
+                  <!--   <ul class="dropdown&#45;menu" role="menu"> -->
+                    <!--     <li><a href="about&#45;us&#45;1.html">About us 1</a></li> -->
+                    <!--     <li><a href="about&#45;us&#45;2.html">About us 2</a></li> -->
+                    <!--   </ul> -->
+                  <!-- </li> -->
+                <!-- <li class="dropdown"> <a href="#">Services <span class="caret"></span></a> -->
+                  <!--   <ul class="dropdown&#45;menu"> -->
+                    <!--     <li><a href="services&#45;1.html">Services 1</a></li> -->
+                    <!--     <li><a href="services&#45;2.html">Services 2</a></li> -->
+                    <!--   </ul> -->
+                  <!-- </li> -->
+                <!-- <li class="dropdown"> <a href="#">Portfolio <span class="caret"></span></a> -->
+                  <!--   <ul class="dropdown&#45;menu"> -->
+                    <!--     <li><a href="portfolio&#45;1.html">Portfolio 1</a></li> -->
+                    <!--     <li><a href="portfolio&#45;2.html">Portfolio 2</a></li> -->
+                    <!--   </ul> -->
+                  <!-- </li> -->
+                <!-- <li class="dropdown"> <a href="#">Blog <span class="caret"></span></a> -->
+                  <!--   <ul class="dropdown&#45;menu"> -->
+                    <!--     <li><a href="blog&#45;listing.html">Blog Listing</a></li> -->
+                    <!--     <li><a href="blog&#45;details.html">Blog Details</a></li> -->
+                    <!--   </ul> -->
+                  <!-- </li> -->
+                <li class="nav-link-custom"><a href="/about-us">About Us</a></li>
+                <li class="nav-link-custom"><a href="#">For Patients</a></li>
+                <li class="nav-link-custom"><a href="#">For Dentists</a></li>
+                <li class="dropdown"> <a href="#">Forms<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="faq.html">Pediatric Packet (download)</a></li>
+                    <li><a href="comming-soon.html">Adult Packet (download)</a></li>
+                  </ul>
+                </li>
+                <li class="nav-link-custom"><a href="about-us.html">Blog</a></li>
+                <li class="nav-link-custom"><a href="contact.html">Contact</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right phone-number">
+                <li>
+                  <a href="tel:6319403690"><i class="fa fa-phone"> </i>&nbsp; (631) 940-3690</a></li>
+              </ul>
+            </div>
+            <!--/.nav-collapse --> 
+          </div>
+          <!--/.container-fluid --> 
+        </div>
+      </nav>
+    </section>
+
+
+
     <%= yield %>
+
+
+
+    <section id="footer" class="">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="footer-cont"> <img src="../images/A4DH.png" class="img-responsive" alt="">
+                <p class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-cont">
+                <h4>Pages</h4>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">For Patients</a></li>
+                  <li><a href="#">For Dentists</a></li>
+                  <li><a href="#">Forms</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-cont">
+                <h4>Contact Us</h4>
+                <p class="contact-info"><i class="fa fa-map-marker"></i>
+                  </br>
+                  Anesthesia for Dental Health</br>
+                  PO Box 1206</br>
+                  Melville, NY 11747</p>
+                <p class="contact-info"><i class="fa fa-phone"></i>PHONE: (631) 940-3690</p>
+                <p class="contact-info"><i class="fa fa-fax"></i>FAX: (631) 239-8405</p>
+                <p class="contact-info"><i class="fa fa-envelope"></i>mboorin@gmail.com</p>
+                <p class="contact-info"><i class="fa fa-envelope"></i>david.pfeffer@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="text-left">Copyright @ 2017. All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </body>
 </html>
