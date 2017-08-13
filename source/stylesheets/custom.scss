@@ -46,7 +46,7 @@
 
 @media (min-width: 768px) {
   .full-screen-links {
-    margin-left: 80px;
+    margin-left: 120px;
   }
 }
 
@@ -56,4 +56,8 @@
 
 .lowercase {
   text-transform: none;
+}
+
+.navbar-brand > img {
+  margin: 0 auto;
 }
