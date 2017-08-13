@@ -62,7 +62,7 @@
   background-color: #fff;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url(images/preloader.gif);
+  background-image: url("images/preloader.gif");
 }
 .alignleft {
 	float: left;
@@ -489,7 +489,7 @@ button.close {
 	font-size:52px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:600;
-	color:#fff;
+	// color:#fff;
 	margin-bottom:30px;
 	text-shadow:none;
 }
