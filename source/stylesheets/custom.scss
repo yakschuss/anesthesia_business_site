@@ -61,3 +61,24 @@
 .navbar-brand > img {
   margin: 0 auto;
 }
+
+.dark-text {
+  color: $onyx;
+}
+
+.bottom-spacer {
+  margin-bottom: 3.5rem;
+}
+
+.paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.7;
+}
+
+@media (max-width: 1194px) {
+  .form-spacer {
+    margin-bottom: 1.5rem;
+  }
+}
