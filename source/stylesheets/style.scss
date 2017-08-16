@@ -253,7 +253,7 @@ textarea:hover, input:hover, textarea:active, input:active, textarea:focus, inpu
 .navbar-brand {
 	float: left;
 	height: 50px;
-	padding: 4px 15px;
+	padding: 0px 15px;
 	font-size: 18px;
 	line-height: 20px;
 }
@@ -268,7 +268,7 @@ textarea:hover, input:hover, textarea:active, input:active, textarea:focus, inpu
 	background: #fff;
 	border: none;
 	border-radius: 0px;
-	padding: 20px 10px 20px;
+	padding: 10px;
 	margin-bottom: 0px;
 	text-transform: capitalize;
 	font-size: 14px;
@@ -279,7 +279,7 @@ textarea:hover, input:hover, textarea:active, input:active, textarea:focus, inpu
 	color:#777;
 }
 .navbar-right {
-	float: right!important;
+	float: right;
 	margin-top: 5px;
 }
 .navbar-right>li>a {
