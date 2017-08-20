@@ -44,6 +44,13 @@
   }
 }
 
+
+
+@media (max-width: 768px) {
+.carousel-inner>.item > .carousel-caption h1 { font-size: 30px; }
+.carousel-inner>.item > .carousel-caption h1 span { font-size: 30px; }
+}
+
 @media (min-width: 768px) {
   .full-screen-links {
     margin-left: 40px;
