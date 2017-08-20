@@ -6,3 +6,4 @@
 //= require waypoints.min.js
 //= require wow.min.js
 //= require main.js
+//= require custom.js

@@ -78,6 +78,10 @@
   margin-top: 1.5rem;
 }
 
+.padding-spacer {
+  padding: 10 10 10 10;
+}
+
 .paragraph {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -140,3 +144,17 @@
     display:block !important;
   }
 }
+
+.inner-page-tab {
+  border: solid 1px white;
+  margin: 0px 2.5px 0px 2.5px;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills >
+li.active > a:hover {
+  background-color: #eee;
+  color: $dark-sky-blue;
+}
+
