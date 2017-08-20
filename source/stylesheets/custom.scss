@@ -47,8 +47,14 @@
 
 
 @media (max-width: 768px) {
-.carousel-inner>.item > .carousel-caption h1 { font-size: 30px; }
-.carousel-inner>.item > .carousel-caption h1 span { font-size: 30px; }
+  .carousel-inner>.item > .carousel-caption h1 { 
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .carousel-inner>.item > .carousel-caption h1 span { 
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
 }
 
 @media (min-width: 768px) {
