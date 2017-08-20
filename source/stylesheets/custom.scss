@@ -163,8 +163,22 @@ li.active > a:hover {
   letter-spacing: 1.2px;
   padding: 10px 10px;
   font-size: 16px;
+  max-width: 95%;
+  text-indent: 60px;
 }
 
 .section-grouping {
   padding: 10px 10px;
+}
+
+.active-section {
+  visibility: visible;
+}
+
+#for-patients-section {
+  padding: 100px;
+}
+
+.paragraph-list {
+  line-height: 25px;
 }
