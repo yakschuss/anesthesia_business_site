@@ -175,8 +175,16 @@ li.active > a:hover {
   visibility: visible;
 }
 
-#for-patients-section {
-  padding: 100px;
+@media(min-width: 768px) {
+  #for-patients-section {
+    padding: 100px;
+  }
+}
+
+@media(max-width: 768px) {
+  #for-patients-section {
+    padding: 10px;
+  }
 }
 
 .paragraph-list {
