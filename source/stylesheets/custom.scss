@@ -1,6 +1,9 @@
-.profile-card {
-  width: 271px;
-  height: 317px;
+
+@media(min-width: 1000px) {
+  .profile-card {
+    width: 271px;
+    height: 317px;
+  }
 }
 
 .profile-card-large {
