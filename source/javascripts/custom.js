@@ -7,6 +7,8 @@ $(function() {
 
     var id = $(this).attr("id")
 
+    console.log(id)
+
     $("." + id + '-section').removeClass("hidden");
     $("." + oldId + '-section').addClass("hidden");
   });
